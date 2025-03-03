@@ -87,7 +87,7 @@ body {
     width: 50%;
     height: 100%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
-    background: url("myvid.gif") center/cover;
+    background: url('myvid.gif') center/cover;
     border-radius:  45%;
     opacity: 0.8;
 }
