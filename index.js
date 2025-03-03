@@ -99,7 +99,7 @@ progressBar.addEventListener("input", seekAudio);
 /*      SKILLS       */
 
 const skillsData = {
-    "Basic computer skills": {
+    "Basic Computer skills": {
         description: "Basic computer skills refer to fundamental knowledge and abilities needed to use a computer effectively for everyday tasks. These skills are essential in most workplaces and daily activities. Below is a breakdown of what they include:",
         tools: ["Operating System Navigation", "Typing and Keyboard Shortcuts", "Internet and Web Browsing", "Email and Communication","Basic Software Usage","Cybersecurity Awareness","Basic Troubleshooting", "Using External Devices"]
     },
@@ -117,7 +117,7 @@ const skillsData = {
         description: "Basic IT (Information Technology) knowledge refers to a fundamental understanding of computer systems, software, networks, and cybersecurity principles. These skills are essential for working with technology efficiently in both personal and professional settings.Understanding fundamental IT concepts such as networking, security, and troubleshooting.",
         tools: ["Computer Hardware & Software", "Operating Systems", "Networking Basics", "Cybersecurity Awareness", "Cloud Computing Basics","Basic Troubleshooting & Maintenance", "Basic Database and File Management", "Digital Communication Tools", "Introduction to Coding & Scripting", "IT Ethics & Best Practices"]
     },
-    "Time management": {
+    "Time Management": {
         description: "Time management refers to the ability to plan, organize, and control how much time is spent on different tasks to maximize productivity and efficiency. It helps individuals meet deadlines, reduce stress, and maintain a work-life balance.",
         tools: ["Prioritization of Tasks", "Planning & Scheduling", "Avoiding Procrastination", "Multitasking vs. Focused Work", "Delegation & Saying No", "Managing Interruptions & Distractions", "Tracking and Improving Time Usage", "Maintaining Work-Life Balance"]
     },
@@ -127,11 +127,11 @@ const skillsData = {
         
         
     },
-    "Effective communication": {
+    "Effective Communication": {
         description: "Effective communication is the ability to convey ideas, thoughts, and information clearly and efficiently to ensure understanding between individuals. It involves both verbal and non-verbal skills, active listening, and adapting communication styles based on the audience. Strong communication is essential in both personal and professional settings.",
         tools: ["Verbal and Non Verbal Communication", "Active Listening", "Written Communication", "Empathy & Emotional Intelligence", "Clarity & Conciseness", "Confidence & Assertiveness", "Feedback & Conflict Resolution", "Adapting to Different Audiences", "Digital Communication"]
     },
-    "Critical thinking": {
+    "Critical Thinking": {
         description: "Critical thinking is the ability to analyze, evaluate, and interpret information logically to make informed decisions. It involves questioning assumptions, considering different perspectives, and using reasoning to solve problems effectively. This skill is essential in decision-making, problem-solving, and strategic planning.",
         tools: ["Analyzing Information", "Logical Reasoning", "Questioning Assumptions", "Problem-Solving & Decision-Making", "Creativity & Innovation", "Evaluating Evidence", "Open-Mindedness & Adaptability", "Communication & Persuasion", "Ethical & Fair Judgment", "Application in Real Life"]
     }
