@@ -64,11 +64,11 @@ let playPauseBtn = document.getElementById("play-pause-btn");
 function toggleAudio() {
 if (audio.paused) {
     audio.play();
-    playPauseBtn.src = "/images/pauseicon.png";
+    playPauseBtn.src = "pauseicon.png";
     playPauseBtn.alt = "Pause";
 } else {
     audio.pause();
-    playPauseBtn.src = "/images/playicon.png";
+    playPauseBtn.src = "playicon.png";
     playPauseBtn.alt = "Play";
 }
 }
@@ -84,7 +84,7 @@ audio.currentTime = seekTime;
 }
 
 function resetAudioControls() {
-playPauseBtn.src = "/images/playicon.png";
+playPauseBtn.src = "playicon.png";
 playPauseBtn.alt = "Play";
 progressBar.value = 0;
 }
