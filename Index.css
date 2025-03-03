@@ -74,7 +74,7 @@ body {
     text-align: center;
     color: white;
     background-color: #000000;
-   background: url(".images/homebackground1.jpg") no-repeat center center/cover;
+   background: url("homebackground1.jpg") no-repeat center center/cover;
     
 }
 
@@ -87,7 +87,7 @@ body {
     width: 50%;
     height: 100%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
-    background: url('./images/myvid.gif') center/cover;
+    background: url("/myvid.gif") center/cover;
     border-radius:  45%;
     opacity: 0.8;
 }
@@ -125,7 +125,7 @@ p {
     justify-content: space-between;
     align-items:center;
     width: 100%;
-    background-image: url('.images/skillsbackground1.jpg');
+    background-image: url("skillsbackground1.jpg");
     background-color: #000000;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -278,7 +278,7 @@ list-style-type: none; /* Options: disc, circle, square, none */
 .right {
     width: 50%;
     height: 100%;
-    background: url('./images/Accenture.jpg') no-repeat center center/cover;
+    background: url("Accenture.jpg") no-repeat center center/cover;
 }
 
 /*  EDUCATION  */
@@ -303,11 +303,11 @@ background-position: center;
 }
 
 .left-img {
-background-image: url('./images//ieti.jpg') ;
+background-image: url("ieti.jpg") ;
 }
 
 .right-img {
-background-image: url('./images/educationwallpaper.jpg');
+background-image: url("educationwallpaper.jpg");
 }
 
 .edu-text {
@@ -421,7 +421,7 @@ appearance: none;
 /*   SOCIAL LINK    */
 
 .social-links {
-background: url('/images/socialbackground.jpg') center/cover;
+background: url("socialbackground.jpg") center/cover;
 text-align: center;
 padding: 1rem 0;
 font-size: 15px;
