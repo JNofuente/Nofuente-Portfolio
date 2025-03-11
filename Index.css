@@ -37,6 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-size: larger;
     color: #ffffff;
     text-decoration: none;
     font-weight: 700;
@@ -47,7 +48,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background: #969696;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 body {
