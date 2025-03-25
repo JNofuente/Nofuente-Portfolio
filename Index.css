@@ -275,6 +275,7 @@ transform: translateX(20px);
 
 .custom-bullets {
 list-style-type: none; /* Options: disc, circle, square, none */
+color:#3b3b3b
 }
 
 .right {
