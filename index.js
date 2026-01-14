@@ -32,6 +32,22 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const leftText = document.querySelector(".left2");
+    
+    function checkScroll() {
+        const sectionPosition = leftText.getBoundingClientRect().top
+        const screenPosition = window.innerHeight / 1.3;
+        
+        if (sectionPosition < screenPosition) {
+            leftText.classList.add("show");
+        }
+    }
+    
+    window.addEventListener("scroll", checkScroll);
+});
+
+
 /* EDUCATION   */
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -187,3 +203,4 @@ function showSkillDetails(skill) {
         }, 50); // Small delay for smoother transition
     }, 300); // Wait for fade-out animation to complete
 }
+
