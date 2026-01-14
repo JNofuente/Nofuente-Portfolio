@@ -60,8 +60,9 @@ body {
             align-items: center;
             justify-content: center;
             text-align: center;
-            flex-direction: column;
+            flex-direction: column;    
             width: 100%;
+            background: url("white wallpaper.png");
     
 }
 
@@ -230,6 +231,7 @@ font-size: 75px;
 
 /* EXPERIENCE */
 
+/* Accenture */
 .experience {
     width: 100%;
     display: flex;
@@ -283,6 +285,67 @@ color:#3b3b3b
     height: 100%;
     background: url("Accenture.jpg") no-repeat center center/cover;
 }
+
+
+/* Concentrix */
+
+.experience2 {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    background-color: #edecff;
+    
+}
+
+.left2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #edecff;
+    margin: 8%;
+    opacity: 100;
+    transform: translateX(-50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.left2.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.experience2 h2 a{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: none;
+color: #000000;
+font-size: 45px;
+display: inline-block; /* Ensures transform works properly */
+transition: transform 0.3s ease-in-out;
+}
+
+.experience2 h2 a:hover{
+background: #a1cdff;
+border-radius: 5px;
+transform: translateX(20px);
+
+}
+
+.custom-bullets {
+list-style-type: none; /* Options: disc, circle, square, none */
+color:#3b3b3b
+}
+
+.right2 {
+    width: 50%;
+    height: 100%;
+    background: url("Concentrix.jpg") no-repeat center center/cover;
+}
+
+
+
+
 
 /*  EDUCATION  */
 
@@ -370,7 +433,7 @@ display: inline-block; /* Important for transform */
 }
 
 #gradcert:hover {
-transform: translateX(10px); /* Moves the text 10px to the right */
+transform: scale(1.1); /* Moves the text 10px to the right */
 background-color: #49f783;
 }
 
@@ -468,4 +531,5 @@ bottom: 0;
 footer p{
 color:white;
 }
+
 
